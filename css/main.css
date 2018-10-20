@@ -50,3 +50,26 @@ h1 {
   text-align: center;
   text-transform: capitalize;
 }
+
+
+@media (max-width:767px) {
+  nav ul {
+    list-style: none;
+    background-color: #FF7F33;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+  }
+
+  nav a:hover {
+    color: #FF7F33;
+    background-color: #ffffff;
+  }
+
+}
