@@ -46,13 +46,15 @@ nav a:hover {
 img {
   width: 100%;
 }
+
 h1 {
   text-align: center;
   text-transform: capitalize;
+  color: #339199;
 }
 
-
-@media (max-width:767px) {
+/* tablet */
+@media (min-width:767px) {
   nav ul {
     list-style: none;
     background-color: #FF7F33;
@@ -71,5 +73,44 @@ h1 {
     color: #FF7F33;
     background-color: #ffffff;
   }
+
+  nav .home{
+    background-color: green;
+  }
+
+  h1 {
+    color: #A09F54;
+  }
+
+}
+
+/* Desktop*/
+@media (min-width:992px) {
+  nav ul {
+    list-style: none;
+    background-color: #67374C;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+  }
+
+  nav a:hover {
+    color: #67374C;
+    background-color: #ffffff;
+  }
+
+  nav .home{
+    background-color: green;
+  }
+
+h1 {
+  color: #61361C;
+}
 
 }
